@@ -3,6 +3,6 @@
 **作业在assignment下**
 
 ### Lesson1
-- [x] chat bot
-- [ ] BFS
-- [ ] 文本自动生成
+- [x] chatbot 以及问答题
+- [x] BFS
+- [x] 文本自动生成
