@@ -27,7 +27,7 @@ def count_split_inv(left_sorted, right_sorted):
 def count_inversions(A):
     n = len(A)
 
-    if n==1:
+    if n<=1:
         return 0, A
 
     left_side = A[:int(n/2)][:]
