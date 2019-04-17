@@ -11,4 +11,4 @@
 -[x] 课程代码review
 -[x] 课程要点review（问答题+简单爬虫）
 -[x] 用wiki语料库训练语言模型
--[ ] option(OOV)
+-[x] option(OOV)
