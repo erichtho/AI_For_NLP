@@ -8,6 +8,10 @@ import requests
 from bs4 import BeautifulSoup
 
 
+"""
+未完成，实际使用爬虫是bjsubway_official_crawler.py
+"""
+
 class SubwayLine():
     def __init__(self, soup):
         self.soup = soup

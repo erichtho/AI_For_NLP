@@ -8,6 +8,9 @@ import requests
 from bs4 import BeautifulSoup, element
 import json
 
+"""
+北京地铁官方网站爬虫
+"""
 
 distance_url = 'http://www.bjsubway.com/station/zjgls/'
 time_url = ''
@@ -39,8 +42,8 @@ def station_info_fill(subway_line, stations, dis):
         station_line[stations[0]] = set([subway_line])
 
 for line in distance_soup.find_all('div', class_='line_place'):
-     table_heads = line.find_all('thead')
-     for table_head in table_heads:
+    table_heads = line.find_all('thead')
+    for table_head in table_heads:
         current_line = table_head.find('tr').find('td').\
              string.replace('相邻站间距信息统计表', '')
         tbody = table_head.next_sibling
